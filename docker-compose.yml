@@ -1,0 +1,11 @@
+📄 `docker/docker-compose.yml`
+```yaml
+version: '3.8'
+services:
+  geth:
+    image: ethereum/client-go
+    volumes:
+      - ./data:/root/.ethereum
+    ports:
+      - "8545:8545"
+    command: --http --http.api eth,web3,net
