@@ -1,0 +1,6 @@
+📄 `docs/init-mainnet.md`
+```md
+# Init Geth on Mainnet
+
+```bash
+geth
